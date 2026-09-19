@@ -1,0 +1,11 @@
+name: usage-demo
+
+on:
+  push
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greeting
+        run: echo "Hello from the usage-demo workflow!"
